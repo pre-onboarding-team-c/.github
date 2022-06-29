@@ -1,5 +1,4 @@
-
-<img width="796" alt="스크린샷 2022-06-29 오후 1 53 51" src="https://user-images.githubusercontent.com/87293880/176354544-64349373-3ba4-433f-a0e9-761e9c044888.png">
+<img width="1011" alt="스크린샷 2022-06-29 오후 4 25 15" src="https://user-images.githubusercontent.com/87293880/176377068-c2c207e6-63c6-4bf1-9c65-e688b2a723b5.png">
 
 
 ## Introduce # 3기
