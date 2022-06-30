@@ -71,6 +71,7 @@ refactor:API구현 리팩토링
 ### Code 컨벤션
 [Airbnb JavaScript 스타일 가이드 참조](https://github.com/tipjs/javascript-style-guide)
 >주석
+
 주석은 작성자명을 명시하고 아래와 같이 작성한다.
 ```
 /**
@@ -82,6 +83,7 @@ refactor:API구현 리팩토링
 
  ```
  >독스트링
+ 
  작성자를 명시하고 클래스나 함수 바로 위에 작성한다.
  ```
  /**
