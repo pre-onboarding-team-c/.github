@@ -18,12 +18,12 @@
 ## 컨벤션
 ### Git 컨벤션
 >Git 브랜치 전략
-- Issue 생성 및 담당자를 결정한다.
-- Project에서 해당 담당자가 할 일을 진행중으로 변경한다.
-- 기능 구현 시, Branch이름 / Issue고유번호로 브랜치 분기 후 작업한다. ex( feature/1 )
-- 기능 완료 후 리뷰어, 프로젝트 등을 설정하고 Pull Request한다.
-- 리뷰어들이 리뷰 완료 후 문제가 없을 시 develop 브랜치로 merge한다.
-- develop 에서 테스트 후 문제 없으면 main 브랜치로 merge한다.
+- `Issue생성` 및 담당자를 결정한다.
+- Project에서 해당 담당자가 할 일을 `진행중으로 변경`한다.
+- 기능 구현 시, `Branch이름/Issue고유번호`로 브랜치 분기 후 작업한다. ex( feature/1 )
+- 기능 완료 후 리뷰어, 프로젝트 등을 설정하고 `Pull Request`한다.
+- 리뷰어들이 리뷰 완료 후 문제가 없을 시 `develop 브랜치`로 merge한다.
+- develop 에서 테스트 후 문제 없으면 `main 브랜치`로 merge한다.
 >Git 프로세스
 ```
 git pull origin develop -> 현재 개발되고 있는 브랜치 pull
@@ -35,15 +35,15 @@ git push origin {브랜치명} -> 기능 구현한 것을 푸시
 ```
 >Branch 이름
 
-- main : 기준이 되는 브랜치로 제품을 배포하는 브랜치
-- develop : 개발 브랜치로 개발자들이 이 브랜치를 기준으로 각자 작업한 기능들을 merge
-- feature : 단위 기능을 개발하는 브랜치로 기능 개발이 완료되면 develop 브랜치에 merge
+- **main** : 기준이 되는 브랜치로 제품을 배포하는 브랜치
+- **develop** : 개발 브랜치로 개발자들이 이 브랜치를 기준으로 각자 작업한 기능들을 merge
+- **feature** : 단위 기능을 개발하는 브랜치로 기능 개발이 완료되면 develop 브랜치에 merge
 
 >Issue 생성
-- Title : 간략한 기능 명칭
-- Comment : 구체적인 기능 내용 설명
-- Projects 설정
-- Labels 용도에 맞게 설정
+- **Title** : 간략한 기능 명칭
+- **Comment** : 구체적인 기능 내용 설명
+- **Projects** 설정
+- **Labels** 용도에 맞게 설정
 - 담당자 있을 시 Assigness 설정
 
 >Commit 메세지 컨벤션
@@ -53,13 +53,13 @@ body : 최대 30자를 넘을 수 없으며, 구현한 내용을 한글로 작�
 footer : 선택사항이며 Issue 트래커 id로 사용이 된다.
 ```
 type
-- feat : 새로운 기능 추가
-- fix : 버그 수정
-- docs : 문서 수정
-- style : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우, linting
-- refactor : 코드 리팩토링
-- test : 테스트 코드, 리팩토링 테스트 코드 추가
-- chore : 빌드 업무 수정, 패키지 매니저 수정
+- **feat** : 새로운 기능 추가
+- **fix** : 버그 수정
+- **docs** : 문서 수정
+- **style** : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우, linting
+- **refactor** : 코드 리팩토링
+- **test** : 테스트 코드, 리팩토링 테스트 코드 추가
+- **chore** : 빌드 업무 수정, 패키지 매니저 수정
 
 ```
 ex)
@@ -72,7 +72,7 @@ refactor:API구현 리팩토링
 [Airbnb JavaScript 스타일 가이드 참조](https://github.com/tipjs/javascript-style-guide)
 >주석
 
-주석은 작성자명을 명시하고 아래와 같이 작성한다.
+`주석`은 작성자를 명시하고 아래와 같이 작성한다.
 ```
 /**
  * 작성자 : 작성자명
@@ -84,7 +84,7 @@ refactor:API구현 리팩토링
  ```
  >독스트링
  
- 작성자를 명시하고 클래스나 함수 바로 위에 작성한다.
+ `독스트링`은 작성자를 명시하고 클래스나 함수 바로 위에 작성한다.
  ```
  /**
   * 작성자 : 작성자명
@@ -99,7 +99,8 @@ const f = (파라미터1, 파라미터2) => { return };
 ### 기타
 >Repository 작성 규칙
 
-PascalCase로 작성한다.
+Reopsitory이름은 `PascalCase`로 작성한다.   
+회사이름은 명시된 것과 똑같이 작성
 ```
-Repository명-C-회사이름
+RepositoryName-C-회사이름
 ```
