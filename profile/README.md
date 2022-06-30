@@ -99,8 +99,8 @@ const f = (파라미터1, 파라미터2) => { return };
 ### 기타
 >Repository 작성 규칙
 
-Reopsitory이름은 `PascalCase`로 작성한다.   
-회사이름은 명시된 것과 똑같이 작성
+Repository이름은 순번, 팀, 회사 순으로 작성하되, 띄어쓰기는 하지않고 하이픈으로 작성.   
+회사이름은 영문으로 `PascalCase`로 작성한다.
 ```
-RepositoryName-C-회사이름
+01-C-RepositoryName
 ```
