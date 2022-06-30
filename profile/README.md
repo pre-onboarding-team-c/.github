@@ -11,7 +11,7 @@
 
 ## Environment
 ![node](https://img.shields.io/badge/node-v16.15.1-3776AB?&style=plastic&logo=JavaScript&logoColor=white?label=healthinesses)
-![npm](https://img.shields.io/badge/npm-8.13.1-7986cb?&style=plastic&logo=npm&logoColor=white?label=healthinesses)
+![npm](https://img.shields.io/badge/npm-v8.13.1-7986cb?&style=plastic&logo=npm&logoColor=white?label=healthinesses)
 
 ## Table of contents
 
