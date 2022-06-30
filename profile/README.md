@@ -1,19 +1,43 @@
 <img width="1052" alt="스크린샷 2022-06-30 오후 9 01 47" src="https://user-images.githubusercontent.com/87293880/176672332-6fb6a0b9-b64f-4131-86ea-eb837f801b36.png">
 
-## Introduce # 3기
-|name|team|title|github|email|
+## 소개 # 3기
+|이름|팀|역할|깃허브|이메일|
 |:----:|:----:|:---:|:----|:--|
 |김지유|C|팀장|[@scvgood287](https://github.com/scvgood287)|kgeeeu@gmail.com|
 |김영우|C|팀원|[@whoamixzerone](https://github.com/whoamixzerone)|whoamixzerone@gmail.com|
 |황시우|C|팀원|[@nicesiu](https://github.com/nicesiu)|siuh0403@gmail.com|
 
 
-## Environment
+## 환경
 ![node](https://img.shields.io/badge/node-v16.15.1-3776AB?&style=plastic&logo=JavaScript&logoColor=white?label=healthinesses)
 ![npm](https://img.shields.io/badge/npm-v8.13.1-7986cb?&style=plastic&logo=npm&logoColor=white?label=healthinesses)
 
-## Table of contents
+## 컨벤션
+### Git 컨벤션
+>Git 브랜치 전략
+- Issue 생성 및 담당자를 결정한다.
+- Project에서 해당 담당자가 할 일을 진행중으로 변경한다.
+- 기능 구현 시, Branch이름 / Issue고유번호로 브랜치 분기 후 작업한다. ex( feature/1 )
+- 기능 완료 후 리뷰어, 프로젝트 등을 설정하고 Pull Request한다.
+- 리뷰어들이 리뷰 완료 후 문제가 없을 시 develop 브랜치로 merge한다.
+- develop 에서 테스트 후 문제 없으면 main 브랜치로 merge한다.
+>Git 프로세스
+```
+git pull origin develop -> 현재 개발되고 있는 브랜치 pull
+git branch -> 어떤 브랜치가 스위칭되어있는지 확인
+git checkout {브랜치명} -> 기능 구현 브랜치명으로 스위칭
+git add . -> 변경내용 추가
+git commit -m “{매세지 내용}” -> Git 커밋 메세지 컨벤션에 따름
+git push origin {브랜치명} -> 기능 구현한 것을 푸시
+```
+>Branch 이름
+
+- main : 기준이 되는 브랜치로 제품을 배포하는 브랜치
+- develop : 개발 브랜치로 개발자들이 이 브랜치를 기준으로 각자 작업한 기능들을 merge
+- feature : 단위 기능을 개발하는 브랜치로 기능 개발이 완료되면 develop 브랜치에 merge
+
+---
 
 
-## Convention
-### git convention
+### Code 컨벤션
+Airbnb JavaScript 스타일 가이드 참조
