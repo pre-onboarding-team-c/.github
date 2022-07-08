@@ -67,6 +67,21 @@ feat:로그인 구현#15
 refactor:API구현 리팩토링
 ...
 ```
+
+> 공동 Author 추가
+```
+git commit -m "Refactor usability tests.
+>
+>
+Co-authored-by: name <name@example.com>
+Co-authored-by: another-name <another-name@example.com>"
+
+ex)
+git commit -m "feat : 회원가입.
+>
+> Co-authored-by: user1 <user1@gmail.com>"
+```
+
 ---
 ### Code 컨벤션
 [Airbnb JavaScript 스타일 가이드 참조](https://github.com/tipjs/javascript-style-guide)
